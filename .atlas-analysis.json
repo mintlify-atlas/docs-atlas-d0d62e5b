@@ -1,0 +1,83 @@
+{
+  "projectType": "sdk-library",
+  "projectName": "Stobo MCP",
+  "projectDescription": "MCP server for AI-powered SEO and AEO content optimization in Claude Desktop and compatible editors",
+  "theme": "palm",
+  "primaryColor": "#2563eb",
+  "lightColor": "#60a5fa",
+  "darkColor": "#1e40af",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Tools Reference",
+            "pages": [
+              "tools/overview",
+              "tools/audit-site",
+              "tools/audit-article",
+              "tools/audit-freshness",
+              "tools/generate-llms-txt",
+              "tools/generate-robots-txt",
+              "tools/generate-sitemap",
+              "tools/generate-freshness-code",
+              "tools/extract-tone",
+              "tools/rewrite-article",
+              "tools/get-credits",
+              "tools/check-connection"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/workflows",
+              "guides/pricing",
+              "guides/editor-setup"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/troubleshooting",
+              "advanced/environment-variables",
+              "advanced/error-handling"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Full website SEO and AEO audits (34 SEO + 7 AEO checks)",
+    "Article-level deep-dive audits with keyword targeting",
+    "Instant fix generators (llms.txt, robots.txt, sitemap.xml, date markup)",
+    "Brand voice extraction from blog content",
+    "AI-powered article rewriting for better SEO/AEO",
+    "Content freshness auditing across sitemaps",
+    "82% fewer tokens than manual web_fetch approach",
+    "Free tools work without API key",
+    "Compatible with Claude Desktop, Cursor, VS Code, Windsurf"
+  ],
+  "publicApiSurface": [
+    "audit_site - Full website SEO + AEO audit",
+    "audit_article - Article-level audit with keyword targeting",
+    "audit_freshness - Content freshness check via sitemap",
+    "generate_llms_txt - Create llms.txt for AI discoverability",
+    "generate_robots_txt - Create AI-friendly robots.txt",
+    "generate_sitemap - Create sitemap.xml by crawling",
+    "generate_freshness_code - Create date markup snippet",
+    "extract_tone - Analyze brand writing style",
+    "rewrite_article - Rewrite for better SEO/AEO",
+    "get_credits - Check credit balance",
+    "check_connection - Verify API connectivity"
+  ]
+}
